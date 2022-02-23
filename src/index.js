@@ -3,10 +3,10 @@
 
 module.exports = function towelSort (matrix) {
   if (typeof matrix === 'undefined') {
-    return []; //вернуть пустой массив если тип введённой массива(матрицы) - undefined
+    return []; //вернуть пустой массив если тип выходных данных - undefined
   }
 
-  let result = []; // пустой массив
+  let result = []; // объявляем пустой массив
   // цикл для прохождения по массиву, содержащему подмассивы
   for (let i = 0; i < matrix.length; i++) {
     // проверка на чётность
